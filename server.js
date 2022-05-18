@@ -15,26 +15,9 @@ client.on("message", message => {
     message.channel.send("pong");
     } else if (message.content === "PING") {
     message.channel.send("PONG");
-  } else if (message.content === "hannah") {
-    let embed = new Discord.MessageEmbed()
-      .setTitle("idiot")
-      .setDescription(
-        "We're no strangers to love You know the rules and so do I A full commitment's what I'm thinking of You wouldn't get this from any other guy I just wanna tell you how I'm feeling gotta make you understand"
-      )
-      .setColor("RANDOM")
-      .setFooter(
-        "Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you"
-      );    
-    } else if (message.content === "!hannahcmds") {
-    let embed = new Discord.MessageEmbed()
-      .setTitle("Commands")
-      .setDescription(
-        "Listed below are all of the commands for the bot"
-      )
-      .setColor("RANDOM")
-      .setFooter(
-        "ping for ping pong, !party, !kick for mods, !kill, !postmalone for riplee, and !mark"
-      );    
+      } else if (message.content === "!hannahcmds") {
+    message.channel.send("ping for ping pong, !party, !kick for mods, !kill, !postmalone for riplee, and !mark");
+  } else if (message.content === "Ping") {
   } else if (message.content === "yes") {
     message.channel.send("yessss");
   } else if (message.content === "Ping") {
@@ -115,4 +98,4 @@ client.on("message", message => {
     message.channel.send(image);
   }
 });
-client.login("ODMzNDY2ODQyNjI5OTMxMDI4.YHywfA.T1GU-FPMQddDDESM5vY_R3ogRTM");
+client.login("ODMzNDY2ODQyNjI5OTMxMDI4.GzJL2m.1UEMyxwSPBHK5xivS1T4vdKPxxXU9wk0pMABF0");
